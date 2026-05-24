@@ -1,17 +1,17 @@
 {
   "2026-W21": {
-    "generated_at": "2026-05-24T02:19:07.419951Z",
+    "generated_at": "2026-05-24T23:28:19.716160Z",
     "urls": [
-      "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "https://modelrift.com/blog/openscad-llm-benchmark",
-      "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd",
-      "https://www.barebones.com/products/bbedit/bbedit16.html",
-      "https://www.niemanlab.org/2026/05/more-than-340-local-news-outlets-are-limiting-the-internet-archives-access-to-their-journalism",
-      "https://freenet.org",
-      "https://www.alqst.org/ar/posts/1190",
-      "https://qwen.ai/blog?id=qwen3.7",
-      "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
-      "https://status.railway.com/incident/I23M92U0"
+      "https://esengine.github.io/DeepSeek-Reasonix",
+      "https://arxiv.org/abs/2605.06445",
+      "https://github.com/superset-sh/superset",
+      "https://simonwillison.net/2026/May/21/datasette-agent",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.1",
+      "https://huggingface.co/papers/2605.21850",
+      "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+      "https://github.com/antoinezambelli/forge",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.17.3",
+      "https://huggingface.co/blog/ibm-research/open-agent-leaderboard"
     ]
   }
 }
