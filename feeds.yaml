@@ -1,0 +1,109 @@
+# =============================================================================
+# ai-digest — configuración
+# =============================================================================
+# - profile: lo que define "útil" para el LLM (priorities + anti-priorities).
+# - settings: modelo, top_n, dedup, memoria, estrategia de ranking.
+# - rss/reddit/hackernews/arxiv/hf_papers/github: fuentes.
+# - delivery: cómo se entrega el digest (commit y email opcional).
+# =============================================================================
+
+profile:
+  priorities:
+    - "Frameworks y herramientas para agentes (langgraph, smolagents, openai-agents, claude-code, etc.)"
+    - "Patrones de producción para LLMs: evals, memoria, tool use, RAG avanzado"
+    - "Papers con implementación o resultados reproducibles"
+    - "Releases de modelos open-weight relevantes"
+    - "Metodología y filosofía de diseño con LLMs"
+  anti_priorities:
+    - "Anuncios de marketing sin profundidad técnica"
+    - "Contenido para principiantes (qué es un LLM, prompt engineering 101)"
+    - "Hype sin sustancia, hot takes de Twitter"
+    - "Listicles ('top 10 prompts')"
+  exclude_keywords:
+    - "productivity hacks"
+    - "ChatGPT prompts that"
+  extra_notes: |
+    Ingeniero senior. Asumo conocimiento técnico de LLMs.
+    Prefiero artículos con código sobre artículos solo conceptuales.
+
+settings:
+  model: "gemini/gemini-2.5-flash"
+  embedding_model: "gemini/gemini-embedding-001"
+  top_n: 10
+  days_back: 7
+  max_candidates: 150
+  temperature: 0.3
+  ranking_strategy: "auto"        # "single" | "two-pass" | "auto"
+  two_pass_threshold: 50
+  semantic_dedup: true
+  semantic_dedup_threshold: 0.85
+  memory_weeks: 4
+
+rss:
+  - name: "Simon Willison"
+    url: "https://simonwillison.net/atom/everything/"
+  - name: "Latent Space"
+    url: "https://www.latent.space/feed"
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+  - name: "Google DeepMind"
+    url: "https://deepmind.google/blog/rss.xml"
+  - name: "BAIR"
+    url: "https://bair.berkeley.edu/blog/feed.xml"
+  - name: "Anthropic News"
+    url: "https://www.anthropic.com/news/rss.xml"
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+  - name: "Mistral"
+    url: "https://mistral.ai/feed.xml"
+  - name: "Meta AI"
+    url: "https://ai.meta.com/blog/rss/"
+  - name: "AI News (Smol AI)"
+    url: "https://buttondown.com/ainews/rss"
+
+reddit:
+  subs:
+    - "LocalLLaMA"
+    - "MachineLearning"
+    - "LLMDevs"
+  min_score: 50
+  limit_per_sub: 25
+
+hackernews:
+  queries:
+    - "AI agent"
+    - "agentic"
+    - "LLM"
+    - "Claude"
+    - "RAG"
+  min_points: 50
+  hits_per_query: 20
+
+arxiv:
+  categories:
+    - "cs.AI"
+    - "cs.CL"
+    - "cs.LG"
+  max_per_category: 30
+
+hf_papers:
+  days_back: 7
+  min_upvotes: 3
+
+github:
+  repos:
+    - "langchain-ai/langgraph"
+    - "huggingface/smolagents"
+    - "openai/openai-agents-python"
+    - "vllm-project/vllm"
+    - "ggerganov/llama.cpp"
+    - "anthropics/claude-code"
+  include_prereleases: false
+
+delivery:
+  commit: true
+  email:
+    enabled: true
+    from: "onboarding@resend.dev"
+    to: ["alejo1ibarra@gmail.com"]
+    subject_template: "AI Digest — Semana {week_label}"
