@@ -4,9 +4,11 @@ from __future__ import annotations
 import argparse
 import logging
 import os
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Any
 
 import yaml
 
@@ -25,6 +27,23 @@ from src.sources import (
 )
 
 log = logging.getLogger(__name__)
+
+_ENV_RE = re.compile(r"\$\{([A-Za-z_][A-Za-z0-9_]*)\}")
+
+
+def expand_env(value: Any) -> Any:
+    """Recursively replace ${VAR} placeholders in strings with env values.
+
+    Missing env vars expand to "" so the pipeline degrades gracefully (e.g.,
+    email skipped if EMAIL_TO unset) instead of crashing on config load.
+    """
+    if isinstance(value, str):
+        return _ENV_RE.sub(lambda m: os.environ.get(m.group(1), ""), value)
+    if isinstance(value, dict):
+        return {k: expand_env(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [expand_env(v) for v in value]
+    return value
 
 
 def _week_label(now: datetime) -> str:
@@ -149,7 +168,7 @@ def main(argv: list[str] | None = None) -> int:
     if not config_path.exists():
         print(f"Config not found: {config_path}", file=sys.stderr)
         return 1
-    config = yaml.safe_load(config_path.read_text())
+    config = expand_env(yaml.safe_load(config_path.read_text()))
 
     digest_path = run_digest(config, base_dir=Path(args.base_dir), use_llm=not args.no_llm)
     print(str(digest_path))

@@ -104,6 +104,10 @@ delivery:
   commit: true
   email:
     enabled: true
+    # `from` se mantiene en el YAML porque es valor público de Resend (no PII).
+    # Si verificas un dominio propio, cámbialo aquí.
     from: "onboarding@resend.dev"
-    to: ["alejo1ibarra@gmail.com"]
+    # `to` viene de env var para que el repo pueda ser público sin filtrar PII.
+    # Si EMAIL_TO no está definido, el envío se omite con un warning (no rompe el pipeline).
+    to: ["${EMAIL_TO}"]
     subject_template: "AI Digest — Semana {week_label}"

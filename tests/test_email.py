@@ -46,6 +46,19 @@ class TestSendDigest:
         assert "<h1>" in body["html"]  # markdown rendered
 
     @responses.activate
+    def test_empty_to_list_returns_false_without_request(self):
+        cfg = {**CFG_ENABLED, "to": []}
+        assert send_digest("# md", cfg, "2026-W21", api_key="rs_test") is False
+        assert len(responses.calls) == 0
+
+    @responses.activate
+    def test_blank_to_entry_returns_false_without_request(self):
+        # Happens when ${EMAIL_TO} env var is unset → expand_env yields ""
+        cfg = {**CFG_ENABLED, "to": [""]}
+        assert send_digest("# md", cfg, "2026-W21", api_key="rs_test") is False
+        assert len(responses.calls) == 0
+
+    @responses.activate
     def test_http_error_returns_false_without_raising(self):
         responses.add(
             responses.POST,

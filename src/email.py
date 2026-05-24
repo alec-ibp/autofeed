@@ -25,14 +25,23 @@ def send_digest(
         log.warning("Email enabled but no RESEND_API_KEY available; skipping send")
         return False
 
+    recipients = [addr for addr in (cfg.get("to") or []) if addr]
+    if not recipients:
+        log.warning("Email enabled but no recipients (check EMAIL_TO env var); skipping send")
+        return False
+    sender = cfg.get("from") or ""
+    if not sender:
+        log.warning("Email enabled but no sender (check EMAIL_FROM env var); skipping send")
+        return False
+
     subject_template = cfg.get("subject_template", "AI Digest — {week_label}")
     subject = subject_template.format(week_label=week_label)
 
     html = md_lib.markdown(markdown_text, extensions=["extra"])
 
     body = {
-        "from": cfg.get("from", ""),
-        "to": cfg.get("to", []),
+        "from": sender,
+        "to": recipients,
         "subject": subject,
         "html": html,
     }

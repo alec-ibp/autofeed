@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src.digest import run_digest
+from src.digest import expand_env, run_digest
 from src.models import Item
 
 
@@ -94,6 +94,37 @@ def test_empty_collectors_produces_empty_state_digest(monkeypatch, tmp_path: Pat
     digest_path = run_digest(MINIMAL_CONFIG, base_dir=tmp_path, now=now, use_llm=False)
     content = digest_path.read_text()
     assert "sin items relevantes" in content.lower()
+
+
+class TestExpandEnv:
+    def test_substitutes_single_placeholder(self, monkeypatch):
+        monkeypatch.setenv("FOO", "bar")
+        assert expand_env("${FOO}") == "bar"
+
+    def test_substitutes_inside_text(self, monkeypatch):
+        monkeypatch.setenv("WHO", "world")
+        assert expand_env("hello ${WHO}!") == "hello world!"
+
+    def test_missing_var_becomes_empty_string(self, monkeypatch):
+        monkeypatch.delenv("ABSENT", raising=False)
+        assert expand_env("${ABSENT}") == ""
+
+    def test_passthrough_for_non_placeholder_strings(self):
+        assert expand_env("plain text $100") == "plain text $100"
+
+    def test_recurses_into_dicts_and_lists(self, monkeypatch):
+        monkeypatch.setenv("X", "value")
+        data = {"a": "${X}", "b": ["${X}", "lit", 42], "c": {"nested": "${X}"}}
+        assert expand_env(data) == {
+            "a": "value",
+            "b": ["value", "lit", 42],
+            "c": {"nested": "value"},
+        }
+
+    def test_non_string_values_pass_through(self):
+        assert expand_env(42) == 42
+        assert expand_env(True) is True
+        assert expand_env(None) is None
 
 
 def test_memory_excludes_seen_urls_across_weeks(monkeypatch, tmp_path: Path):

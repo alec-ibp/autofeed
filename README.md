@@ -81,18 +81,32 @@ github:
     - "owner/repo"
 ```
 
+## Variables de entorno (.env)
+
+El repo es público — los valores sensibles (API keys, email destinatario) viven en `.env` (gitignored) y en GitHub Secrets, **no en `feeds.yaml`**. Copia `.env.example` a `.env` y rellena solo lo que uses.
+
+`feeds.yaml` interpola `${VAR_NAME}` desde el entorno al cargarse. Si una env var falta, se reemplaza por string vacío y el componente que la usa degrada gracilmente (p.ej. email se omite con warning, no rompe el pipeline).
+
+| Env var | Cuándo | Para qué |
+|---|---|---|
+| `GEMINI_API_KEY` / `ANTHROPIC_API_KEY` / `OPENAI_API_KEY` / ... | provider activo | LiteLLM completion + embeddings |
+| `RESEND_API_KEY` | si `delivery.email.enabled = true` | Envío vía Resend |
+| `EMAIL_TO` | si email habilitado | Destinatario del digest (interpolado en `feeds.yaml`) |
+
 ## Email opcional (Resend)
 
-1. Crea cuenta en [resend.com](https://resend.com) (free tier 3k/mes).
-2. Agrega `RESEND_API_KEY` como GitHub Secret.
+1. Crea cuenta en [resend.com](https://resend.com) (free tier 3k/mes) y genera una API key.
+2. Agrega como GitHub Secrets: `RESEND_API_KEY` y `EMAIL_TO` (tu email).
 3. En `feeds.yaml`:
    ```yaml
    delivery:
      email:
        enabled: true
-       from: "ai-digest@tudominio.com"
-       to: ["tu@correo.com"]
+       from: "onboarding@resend.dev"      # default Resend (para testing sin dominio)
+       to: ["${EMAIL_TO}"]                # se resuelve desde env
    ```
+
+> **Sin dominio verificado** (testing): `from: "onboarding@resend.dev"` solo envía al email registrado en tu cuenta Resend. **Con dominio verificado** (DNS): `from: "ai-digest@tudominio.com"` envía a cualquier `to`.
 
 ## Estructura
 
