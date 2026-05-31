@@ -13,5 +13,20 @@
       "https://github.com/openai/openai-agents-python/releases/tag/v0.17.3",
       "https://huggingface.co/blog/ibm-research/open-agent-leaderboard"
     ]
+  },
+  "2026-W22": {
+    "generated_at": "2026-05-31T23:30:56.512835Z",
+    "urls": [
+      "https://simonwillison.net/2026/May/30/how-we-contain-claude",
+      "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
+      "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "https://www.latent.space/p/cognition",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+      "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.0",
+      "https://huggingface.co/papers/2605.30052",
+      "https://huggingface.co/papers/2605.29271",
+      "https://huggingface.co/papers/2605.29250",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.17.4"
+    ]
   }
 }
