@@ -28,5 +28,20 @@
       "https://huggingface.co/papers/2605.29250",
       "https://github.com/openai/openai-agents-python/releases/tag/v0.17.4"
     ]
+  },
+  "2026-W23": {
+    "generated_at": "2026-06-07T23:30:59.329028Z",
+    "urls": [
+      "https://arxiv.org/abs/2601.14470",
+      "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+      "https://openai.com/index/chatgpt-memory-dreaming",
+      "https://github.com/zaydmulani09/mnemo",
+      "https://huggingface.co/papers/2606.05622",
+      "https://huggingface.co/papers/2606.06416",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.4",
+      "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+      "https://huggingface.co/blog/JetBrains/mellum2-launch"
+    ]
   }
 }
