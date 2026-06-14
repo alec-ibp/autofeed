@@ -43,5 +43,20 @@
       "https://www.kapa.ai/blog/how-we-index-images-for-rag",
       "https://huggingface.co/blog/JetBrains/mellum2-launch"
     ]
+  },
+  "2026-W24": {
+    "generated_at": "2026-06-14T23:35:15.275205Z",
+    "urls": [
+      "https://www.anthropic.com/research/making-claude-a-chemist",
+      "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.5",
+      "https://huggingface.co/blog/allenai/olmo-eval",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.17.5",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+      "https://huggingface.co/papers/2606.13392",
+      "https://huggingface.co/papers/2606.13681",
+      "https://huggingface.co/papers/2606.13662",
+      "https://burr.apache.org"
+    ]
   }
 }
