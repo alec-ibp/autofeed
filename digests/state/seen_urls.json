@@ -1,19 +1,4 @@
 {
-  "2026-W21": {
-    "generated_at": "2026-05-24T23:28:19.716160Z",
-    "urls": [
-      "https://esengine.github.io/DeepSeek-Reasonix",
-      "https://arxiv.org/abs/2605.06445",
-      "https://github.com/superset-sh/superset",
-      "https://simonwillison.net/2026/May/21/datasette-agent",
-      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.1",
-      "https://huggingface.co/papers/2605.21850",
-      "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
-      "https://github.com/antoinezambelli/forge",
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.17.3",
-      "https://huggingface.co/blog/ibm-research/open-agent-leaderboard"
-    ]
-  },
   "2026-W22": {
     "generated_at": "2026-05-31T23:30:56.512835Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://huggingface.co/papers/2606.13681",
       "https://huggingface.co/papers/2606.13662",
       "https://burr.apache.org"
+    ]
+  },
+  "2026-W25": {
+    "generated_at": "2026-06-21T23:35:59.086927Z",
+    "urls": [
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.17.6",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.6",
+      "https://huggingface.co/blog/is-it-agentic-enough",
+      "https://simonwillison.net/2026/Jun/17/glm-52",
+      "https://huggingface.co/papers/2606.20529",
+      "https://huggingface.co/papers/2606.19704",
+      "https://huggingface.co/papers/2606.19602",
+      "https://huggingface.co/papers/2606.19605",
+      "https://simonwillison.net/2026/Jun/15/datasette-agent"
     ]
   }
 }
