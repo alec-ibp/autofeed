@@ -1,19 +1,4 @@
 {
-  "2026-W23": {
-    "generated_at": "2026-06-07T23:30:59.329028Z",
-    "urls": [
-      "https://arxiv.org/abs/2601.14470",
-      "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
-      "https://openai.com/index/chatgpt-memory-dreaming",
-      "https://github.com/zaydmulani09/mnemo",
-      "https://huggingface.co/papers/2606.05622",
-      "https://huggingface.co/papers/2606.06416",
-      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.4",
-      "https://www.kapa.ai/blog/how-we-index-images-for-rag",
-      "https://huggingface.co/blog/JetBrains/mellum2-launch"
-    ]
-  },
   "2026-W24": {
     "generated_at": "2026-06-14T23:35:15.275205Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://huggingface.co/papers/2606.25763",
       "https://huggingface.co/papers/2606.25319",
       "https://huggingface.co/papers/2606.24775"
+    ]
+  },
+  "2026-W27": {
+    "generated_at": "2026-07-05T23:28:55.068854Z",
+    "urls": [
+      "https://simonwillison.net/2026/Jul/4/better-models-worse-tools",
+      "https://www.latent.space/p/vercel-agents-new-software",
+      "https://simonwillison.net/2026/Jul/2/llm-coding-agent",
+      "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts",
+      "https://www.latent.space/p/autoresearch-introspection",
+      "https://huggingface.co/papers/2607.02255",
+      "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.7",
+      "https://github.com/vllm-project/vllm/releases/tag/v0.24.0",
+      "https://simonwillison.net/2026/Jun/29/ornith"
     ]
   }
 }
