@@ -1,19 +1,4 @@
 {
-  "2026-W24": {
-    "generated_at": "2026-06-14T23:35:15.275205Z",
-    "urls": [
-      "https://www.anthropic.com/research/making-claude-a-chemist",
-      "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
-      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.5",
-      "https://huggingface.co/blog/allenai/olmo-eval",
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.17.5",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
-      "https://huggingface.co/papers/2606.13392",
-      "https://huggingface.co/papers/2606.13681",
-      "https://huggingface.co/papers/2606.13662",
-      "https://burr.apache.org"
-    ]
-  },
   "2026-W25": {
     "generated_at": "2026-06-21T23:35:59.086927Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://github.com/langchain-ai/langgraph/releases/tag/1.2.7",
       "https://github.com/vllm-project/vllm/releases/tag/v0.24.0",
       "https://simonwillison.net/2026/Jun/29/ornith"
+    ]
+  },
+  "2026-W28": {
+    "generated_at": "2026-07-13T00:00:06.704565Z",
+    "urls": [
+      "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "https://github.com/ggml-org/llama.cpp/releases/tag/b9977",
+      "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.18.2",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.9",
+      "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+      "https://huggingface.co/papers/2607.08716",
+      "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
+      "https://www.kapa.ai/blog/how-we-prune-rag-context"
     ]
   }
 }
