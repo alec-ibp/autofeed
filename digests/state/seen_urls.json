@@ -1,19 +1,4 @@
 {
-  "2026-W25": {
-    "generated_at": "2026-06-21T23:35:59.086927Z",
-    "urls": [
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.17.6",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.6",
-      "https://huggingface.co/blog/is-it-agentic-enough",
-      "https://simonwillison.net/2026/Jun/17/glm-52",
-      "https://huggingface.co/papers/2606.20529",
-      "https://huggingface.co/papers/2606.19704",
-      "https://huggingface.co/papers/2606.19602",
-      "https://huggingface.co/papers/2606.19605",
-      "https://simonwillison.net/2026/Jun/15/datasette-agent"
-    ]
-  },
   "2026-W26": {
     "generated_at": "2026-06-28T23:30:20.576123Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://huggingface.co/papers/2607.08716",
       "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
       "https://www.kapa.ai/blog/how-we-prune-rag-context"
+    ]
+  },
+  "2026-W30": {
+    "generated_at": "2026-07-20T02:54:12.274582Z",
+    "urls": [
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
+      "https://www.capitalone.com/tech/open-source/announcing-vulnhunter",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.18.3",
+      "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "https://huggingface.co/papers/2607.14952",
+      "https://huggingface.co/papers/2607.15257",
+      "https://github.com/vshulcz/deja-vu",
+      "https://martinfowler.com/articles/llm-and-dsls.html",
+      "https://huggingface.co/papers/2607.13705"
     ]
   }
 }
