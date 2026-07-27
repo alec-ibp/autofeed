@@ -1,19 +1,4 @@
 {
-  "2026-W26": {
-    "generated_at": "2026-06-28T23:30:20.576123Z",
-    "urls": [
-      "https://huggingface.co/papers/2606.18394",
-      "https://huggingface.co/papers/2606.26025",
-      "https://huggingface.co/papers/2606.27313",
-      "https://huggingface.co/papers/2606.26790",
-      "https://huggingface.co/papers/2606.26907",
-      "https://huggingface.co/papers/2606.27377",
-      "https://huggingface.co/papers/2606.26300",
-      "https://huggingface.co/papers/2606.25763",
-      "https://huggingface.co/papers/2606.25319",
-      "https://huggingface.co/papers/2606.24775"
-    ]
-  },
   "2026-W27": {
     "generated_at": "2026-07-05T23:28:55.068854Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://github.com/vshulcz/deja-vu",
       "https://martinfowler.com/articles/llm-and-dsls.html",
       "https://huggingface.co/papers/2607.13705"
+    ]
+  },
+  "2026-W31": {
+    "generated_at": "2026-07-27T00:04:11.392736Z",
+    "urls": [
+      "https://github.com/ggml-org/llama.cpp/releases/tag/b10141",
+      "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+      "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
+      "https://huggingface.co/papers/2607.21557",
+      "https://huggingface.co/papers/2607.20911",
+      "https://huggingface.co/papers/2607.20709",
+      "https://huggingface.co/papers/2607.19747",
+      "https://simonwillison.net/2026/Jul/21/cat-and-thariq"
     ]
   }
 }
