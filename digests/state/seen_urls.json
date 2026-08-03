@@ -45,18 +45,18 @@
     ]
   },
   "2026-W31": {
-    "generated_at": "2026-07-27T00:04:11.392736Z",
+    "generated_at": "2026-08-03T00:02:51.070863Z",
     "urls": [
-      "https://github.com/ggml-org/llama.cpp/releases/tag/b10141",
-      "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-      "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-      "https://huggingface.co/papers/2607.21557",
-      "https://huggingface.co/papers/2607.20911",
-      "https://huggingface.co/papers/2607.20709",
-      "https://huggingface.co/papers/2607.19747",
-      "https://simonwillison.net/2026/Jul/21/cat-and-thariq"
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.19.2",
+      "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731",
+      "https://simonwillison.net/2026/Jul/31/stateless-mcp",
+      "https://simonwillison.net/2026/Jul/31/smevals",
+      "https://simonwillison.net/2026/Jul/30/llm-rc1",
+      "https://huggingface.co/papers/2607.27958",
+      "https://huggingface.co/papers/2607.28227",
+      "https://huggingface.co/papers/2607.26497",
+      "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.10"
     ]
   }
 }
