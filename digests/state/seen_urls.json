@@ -1,19 +1,4 @@
 {
-  "2026-W31": {
-    "generated_at": "2026-08-03T00:02:51.070863Z",
-    "urls": [
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.19.2",
-      "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731",
-      "https://simonwillison.net/2026/Jul/31/stateless-mcp",
-      "https://simonwillison.net/2026/Jul/31/smevals",
-      "https://simonwillison.net/2026/Jul/30/llm-rc1",
-      "https://huggingface.co/papers/2607.27958",
-      "https://huggingface.co/papers/2607.28227",
-      "https://huggingface.co/papers/2607.26497",
-      "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.10"
-    ]
-  },
   "2026-W32": {
     "generated_at": "2026-08-09T23:35:37.192346Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
       "https://github.com/openai/openai-agents-python/releases/tag/v0.22.0",
       "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+    ]
+  },
+  "2026-W36": {
+    "generated_at": "2026-08-31T01:15:28.241186Z",
+    "urls": [
+      "https://pwning.systems/posts/llm-memory-program-analysis",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
+      "https://github.com/calmrocks/ai-engineer-notebooks",
+      "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
+      "https://huggingface.co/papers/2608.26530",
+      "https://huggingface.co/blog/train-multi-vector-encoder",
+      "https://huggingface.co/papers/2608.25593",
+      "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents"
     ]
   }
 }
