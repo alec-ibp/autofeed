@@ -1,19 +1,4 @@
 {
-  "2026-W32": {
-    "generated_at": "2026-08-09T23:35:37.192346Z",
-    "urls": [
-      "https://openchamber.dev",
-      "https://github.com/ggml-org/llama.cpp/releases/tag/b10328",
-      "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
-      "https://artificialanalysis.ai?intelligence=agentic-index",
-      "https://huggingface.co/papers/2608.06301",
-      "https://blog.cloudflare.com/cloudflare-os",
-      "https://data4sci.com/blog/building-an-advanced-agentic-harness",
-      "https://arxiv.org/abs/2607.29377",
-      "https://www.latent.space/p/unpacking-chatgpt-work"
-    ]
-  },
   "2026-W33": {
     "generated_at": "2026-08-16T23:23:57.651661Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://huggingface.co/papers/2608.25593",
       "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents"
+    ]
+  },
+  "2026-W37": {
+    "generated_at": "2026-09-07T00:50:32.827834Z",
+    "urls": [
+      "https://github.com/okf-memory/okf-agent-memory",
+      "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+      "https://armature.tech/blog/which-tools-coding-agents-install",
+      "https://openai.com/index/gpt-6-astra",
+      "https://huggingface.co/papers/2609.04199",
+      "https://huggingface.co/papers/2609.03430",
+      "https://huggingface.co/papers/2609.04148",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+      "https://github.com/carloslfu/slotstream",
+      "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"
     ]
   }
 }
