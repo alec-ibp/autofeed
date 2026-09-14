@@ -1,19 +1,4 @@
 {
-  "2026-W33": {
-    "generated_at": "2026-08-16T23:23:57.651661Z",
-    "urls": [
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1",
-      "https://www.anthropic.com/research/multiagent-systems",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
-      "https://github.com/fellowgeek/mcp-memory",
-      "https://huggingface.co/papers/2608.13560",
-      "https://huggingface.co/papers/2608.12440",
-      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.11",
-      "https://stolen-thoughts.com",
-      "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer",
-      "https://cactuscompute.com/needle"
-    ]
-  },
   "2026-W34": {
     "generated_at": "2026-08-23T23:25:00.840551Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
       "https://github.com/carloslfu/slotstream",
       "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"
+    ]
+  },
+  "2026-W38": {
+    "generated_at": "2026-09-14T00:53:58.036990Z",
+    "urls": [
+      "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+      "https://simonwillison.net/2026/Sep/11/boris-cherny",
+      "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "https://openai.com/index/introducing-the-agents-api",
+      "https://huggingface.co/papers/2609.11042",
+      "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+      "https://huggingface.co/papers/2609.08572",
+      "https://huggingface.co/papers/2609.08149"
     ]
   }
 }
