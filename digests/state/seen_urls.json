@@ -1,19 +1,4 @@
 {
-  "2026-W34": {
-    "generated_at": "2026-08-23T23:25:00.840551Z",
-    "urls": [
-      "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
-      "https://github.com/zachahn/vomit",
-      "https://huggingface.co/papers/2608.19758",
-      "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
-      "https://huggingface.co/papers/2608.20281",
-      "https://huggingface.co/papers/2608.20202",
-      "https://huggingface.co/papers/2608.19880",
-      "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.22.0",
-      "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
-    ]
-  },
   "2026-W36": {
     "generated_at": "2026-08-31T01:15:28.241186Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
       "https://huggingface.co/papers/2609.08572",
       "https://huggingface.co/papers/2609.08149"
+    ]
+  },
+  "2026-W39": {
+    "generated_at": "2026-09-21T00:57:35.202427Z",
+    "urls": [
+      "https://agentexecutor.io",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.22.3",
+      "https://simonwillison.net/2026/Sep/17/compaction-summaries",
+      "https://github.com/browser-use/jev-ultrafast",
+      "https://harnesstax.github.io",
+      "https://huggingface.co/papers/2609.19656",
+      "https://huggingface.co/papers/2609.19969",
+      "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "https://github.com/anuj0456/OpenArch"
     ]
   }
 }
