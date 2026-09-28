@@ -1,19 +1,4 @@
 {
-  "2026-W36": {
-    "generated_at": "2026-08-31T01:15:28.241186Z",
-    "urls": [
-      "https://pwning.systems/posts/llm-memory-program-analysis",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
-      "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
-      "https://github.com/calmrocks/ai-engineer-notebooks",
-      "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
-      "https://huggingface.co/papers/2608.26530",
-      "https://huggingface.co/blog/train-multi-vector-encoder",
-      "https://huggingface.co/papers/2608.25593",
-      "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents"
-    ]
-  },
   "2026-W37": {
     "generated_at": "2026-09-07T00:50:32.827834Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://huggingface.co/papers/2609.19969",
       "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
       "https://github.com/anuj0456/OpenArch"
+    ]
+  },
+  "2026-W40": {
+    "generated_at": "2026-09-28T01:29:32.043907Z",
+    "urls": [
+      "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "https://swarmtraces.org",
+      "https://github.com/Avinash-jetwani/jevmem",
+      "https://huggingface.co/papers/2609.29892",
+      "https://github.com/Parcha-ai/agentrun",
+      "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32",
+      "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "https://huggingface.co/papers/2609.28416",
+      "https://huggingface.co/papers/2609.27334",
+      "https://benchmarkheaven.com/jev-models"
     ]
   }
 }
