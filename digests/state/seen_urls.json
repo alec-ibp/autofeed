@@ -1,19 +1,4 @@
 {
-  "2026-W37": {
-    "generated_at": "2026-09-07T00:50:32.827834Z",
-    "urls": [
-      "https://github.com/okf-memory/okf-agent-memory",
-      "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
-      "https://armature.tech/blog/which-tools-coding-agents-install",
-      "https://openai.com/index/gpt-6-astra",
-      "https://huggingface.co/papers/2609.04199",
-      "https://huggingface.co/papers/2609.03430",
-      "https://huggingface.co/papers/2609.04148",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
-      "https://github.com/carloslfu/slotstream",
-      "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"
-    ]
-  },
   "2026-W38": {
     "generated_at": "2026-09-14T00:53:58.036990Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://huggingface.co/papers/2609.28416",
       "https://huggingface.co/papers/2609.27334",
       "https://benchmarkheaven.com/jev-models"
+    ]
+  },
+  "2026-W41": {
+    "generated_at": "2026-10-05T01:46:18.193051Z",
+    "urls": [
+      "https://liao.gg/blog/agents-dont-need-memory",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.23.0",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents",
+      "https://huggingface.co/papers/2610.02142",
+      "https://huggingface.co/papers/2610.01428",
+      "https://huggingface.co/papers/2610.01939",
+      "https://github.com/magnitudedev/magnitude",
+      "https://www.latent.space/p/thariq",
+      "https://huggingface.co/papers/2609.32259"
     ]
   }
 }
