@@ -1,19 +1,4 @@
 {
-  "2026-W38": {
-    "generated_at": "2026-09-14T00:53:58.036990Z",
-    "urls": [
-      "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
-      "https://simonwillison.net/2026/Sep/11/boris-cherny",
-      "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-      "https://openai.com/index/introducing-the-agents-api",
-      "https://huggingface.co/papers/2609.11042",
-      "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-      "https://huggingface.co/papers/2609.08572",
-      "https://huggingface.co/papers/2609.08149"
-    ]
-  },
   "2026-W39": {
     "generated_at": "2026-09-21T00:57:35.202427Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://github.com/magnitudedev/magnitude",
       "https://www.latent.space/p/thariq",
       "https://huggingface.co/papers/2609.32259"
+    ]
+  },
+  "2026-W42": {
+    "generated_at": "2026-10-12T02:12:12.245573Z",
+    "urls": [
+      "https://momo5502.com/posts/2026-10-09-game-decompilation",
+      "https://github.com/rociiu/talorys",
+      "https://huggingface.co/papers/2609.33987",
+      "https://huggingface.co/papers/2610.11794",
+      "https://huggingface.co/papers/2610.11287",
+      "https://huggingface.co/papers/2610.12369",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
+      "https://simonwillison.net/2026/Oct/6/le-chonk",
+      "https://huggingface.co/papers/2610.09087"
     ]
   }
 }
