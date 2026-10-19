@@ -1,19 +1,4 @@
 {
-  "2026-W39": {
-    "generated_at": "2026-09-21T00:57:35.202427Z",
-    "urls": [
-      "https://agentexecutor.io",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.22.3",
-      "https://simonwillison.net/2026/Sep/17/compaction-summaries",
-      "https://github.com/browser-use/jev-ultrafast",
-      "https://harnesstax.github.io",
-      "https://huggingface.co/papers/2609.19656",
-      "https://huggingface.co/papers/2609.19969",
-      "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
-      "https://github.com/anuj0456/OpenArch"
-    ]
-  },
   "2026-W40": {
     "generated_at": "2026-09-28T01:29:32.043907Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
       "https://simonwillison.net/2026/Oct/6/le-chonk",
       "https://huggingface.co/papers/2610.09087"
+    ]
+  },
+  "2026-W43": {
+    "generated_at": "2026-10-19T00:57:31.475941Z",
+    "urls": [
+      "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
+      "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0",
+      "https://huggingface.co/papers/2610.22280",
+      "https://huggingface.co/papers/2610.22350",
+      "https://huggingface.co/papers/2610.22200",
+      "https://huggingface.co/papers/2610.22344",
+      "https://huggingface.co/papers/2610.21463",
+      "https://simonwillison.net/2026/Oct/13/geoffrey-huntley"
     ]
   }
 }
