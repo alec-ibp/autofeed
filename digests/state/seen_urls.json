@@ -1,19 +1,4 @@
 {
-  "2026-W40": {
-    "generated_at": "2026-09-28T01:29:32.043907Z",
-    "urls": [
-      "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "https://swarmtraces.org",
-      "https://github.com/Avinash-jetwani/jevmem",
-      "https://huggingface.co/papers/2609.29892",
-      "https://github.com/Parcha-ai/agentrun",
-      "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32",
-      "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "https://huggingface.co/papers/2609.28416",
-      "https://huggingface.co/papers/2609.27334",
-      "https://benchmarkheaven.com/jev-models"
-    ]
-  },
   "2026-W41": {
     "generated_at": "2026-10-05T01:46:18.193051Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://huggingface.co/papers/2610.22344",
       "https://huggingface.co/papers/2610.21463",
       "https://simonwillison.net/2026/Oct/13/geoffrey-huntley"
+    ]
+  },
+  "2026-W44": {
+    "generated_at": "2026-10-26T01:04:39.200365Z",
+    "urls": [
+      "https://latent.space/p/ainews-kimi-31",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "https://github.com/NVIDIA/OpenShell",
+      "https://huggingface.co/papers/2610.30755",
+      "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "https://github.com/omnara-ai/omnara",
+      "https://latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "https://huggingface.co/papers/2610.30418",
+      "https://github.com/IsuruMaduranga/harness-engineering-101"
     ]
   }
 }
