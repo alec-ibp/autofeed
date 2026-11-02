@@ -1,19 +1,4 @@
 {
-  "2026-W41": {
-    "generated_at": "2026-10-05T01:46:18.193051Z",
-    "urls": [
-      "https://liao.gg/blog/agents-dont-need-memory",
-      "https://github.com/openai/openai-agents-python/releases/tag/v0.23.0",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-      "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents",
-      "https://huggingface.co/papers/2610.02142",
-      "https://huggingface.co/papers/2610.01428",
-      "https://huggingface.co/papers/2610.01939",
-      "https://github.com/magnitudedev/magnitude",
-      "https://www.latent.space/p/thariq",
-      "https://huggingface.co/papers/2609.32259"
-    ]
-  },
   "2026-W42": {
     "generated_at": "2026-10-12T02:12:12.245573Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://latent.space/p/ainews-deepseek-deepinfer-open-source",
       "https://huggingface.co/papers/2610.30418",
       "https://github.com/IsuruMaduranga/harness-engineering-101"
+    ]
+  },
+  "2026-W45": {
+    "generated_at": "2026-11-02T02:13:53.582425Z",
+    "urls": [
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "https://huggingface.co/blog/mistral-large4",
+      "https://huggingface.co/papers/2610.39301",
+      "https://huggingface.co/papers/2610.39264",
+      "https://huggingface.co/papers/2610.40454",
+      "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+      "https://latent.space/p/opus55",
+      "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache"
     ]
   }
 }
