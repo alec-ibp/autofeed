@@ -1,19 +1,4 @@
 {
-  "2026-W42": {
-    "generated_at": "2026-10-12T02:12:12.245573Z",
-    "urls": [
-      "https://momo5502.com/posts/2026-10-09-game-decompilation",
-      "https://github.com/rociiu/talorys",
-      "https://huggingface.co/papers/2609.33987",
-      "https://huggingface.co/papers/2610.11794",
-      "https://huggingface.co/papers/2610.11287",
-      "https://huggingface.co/papers/2610.12369",
-      "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
-      "https://simonwillison.net/2026/Oct/6/le-chonk",
-      "https://huggingface.co/papers/2610.09087"
-    ]
-  },
   "2026-W43": {
     "generated_at": "2026-10-19T00:57:31.475941Z",
     "urls": [
@@ -57,6 +42,21 @@
       "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
       "https://latent.space/p/opus55",
       "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache"
+    ]
+  },
+  "2026-W46": {
+    "generated_at": "2026-11-09T02:29:35.493925Z",
+    "urls": [
+      "https://github.com/synchopate/llama-modchip",
+      "https://www.lorekit.io/blog/open-agent-memory-format",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14",
+      "https://github.com/rivet-dev/rivet",
+      "https://github.com/AGGIB/Stroq",
+      "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+      "https://huggingface.co/papers/2611.06768",
+      "https://simonwillison.net/2026/Nov/3/datasette-agent",
+      "https://huggingface.co/papers/2611.06500"
     ]
   }
 }
